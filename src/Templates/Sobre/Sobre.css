@@ -204,7 +204,7 @@
   width: 100%;
   padding-top: 5rem;
   padding: 1rem;
-
+margin-top: 10vh;
   h1 {
     color: #0e141b;
     font-family: Proelium;
@@ -254,7 +254,7 @@
   width: 100%;
   padding-top: 5rem;
   padding: 1rem;
-
+margin-top: 30vh;
   h1 {
     color: #0e141b;
     font-family: Proelium;
@@ -266,7 +266,7 @@
   }
   p {
     color: #0e141b;
-    font-size: 22px;
+    font-size: 16px;
     font-family: Gotham;
   }
 }

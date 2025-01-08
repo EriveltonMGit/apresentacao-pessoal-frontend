@@ -150,6 +150,9 @@ main{
    width: 100%;
  padding: 1rem;
    height: auto;
+   p{
+      color: #0e141b;
+   }
    h1{
    color: #0e141b;
    font-family: Proelium;
@@ -203,6 +206,9 @@ main{
    flex-direction: column;
    width: 100%;
    height: auto;
+   p{
+      color: #0e141b;
+   }
    h1{
    color: #0e141b;
    font-family: Proelium;
@@ -278,6 +284,10 @@ main{
    
    }
    }
+   p{
+      color: #0e141b;
+      font-size: 10px;
+   }
    /* list_items */
    .list_items{
       border: 1px solid #b6b8b5;
@@ -292,7 +302,7 @@ main{
       border-radius: 5px;
       backdrop-filter: blur(2px);
       .icon{
-         font-size: 35px;
+         font-size: 22px;
          margin-top: 1vh;
       }
       

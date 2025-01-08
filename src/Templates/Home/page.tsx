@@ -22,7 +22,7 @@ function Home() {
         <div className="container_social">
         
           <button className="button_contact" aria-label="Entrar em contato">
-            <span>Entre em contato</span>
+            <a href="https://api.whatsapp.com/send?phone=5561981579569&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20seu%20trabalho!">Entre em contato</a>
           </button>
           <div className="flex">
             <a href="https://api.whatsapp.com/send?phone=5561981579569&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20seu%20trabalho!" aria-label="Entrar em contato via WhatsApp">

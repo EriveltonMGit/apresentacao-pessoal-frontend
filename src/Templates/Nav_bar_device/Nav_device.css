@@ -31,7 +31,7 @@
       justify-content: space-between;
       backdrop-filter: blur(10px);
       z-index: 10;
-      border: 1px solid var(--bk-color);
+      border: 1px solid rgb(66, 64, 64);
       z-index: 9998;
      
     }
@@ -76,12 +76,12 @@
       right: 0;
       margin-right: 4vw;
       overflow: hidden;
-      background-color: #b3e9e7;
-      color: white; 
-      border-top: 2px solid #b3e9e7; 
-      border-bottom: 2px solid #b3e9e7;
-      border-left: 6px solid #b3e9e7; 
-      border-right: 6px solid #b3e9e7; 
+      background-color: #5eff00;
+    color: #ffffff;
+    border-top: 2px solid #5eff00;
+    border-bottom: 2px solid #5eff00;
+    border-left: 6px solid #5eff00;
+    border-right: 6px solid #5eff00;
       border-radius: 15px; 
       font-size:1vw; 
       height: 6vh;
@@ -138,7 +138,7 @@
     justify-content: space-between;
     backdrop-filter: blur(10px);
     z-index: 10;
-    border: 1px solid var(--bk-color);
+    border: 1px solid rgba(87, 82, 82, 0.486);
     z-index: 9998;
   }
   /* LOGO */
@@ -265,7 +265,7 @@
     margin-right: 4vw;
     overflow: hidden;
     background-color: #5eff00;
-    color: var(--dark);
+    color: black;
     border-top: 2px solid #5eff00;
     border-bottom: 2px solid #5eff00;
     border-left: 6px solid #5eff00;
@@ -312,8 +312,8 @@
   /* NAVBAR */
   .nav_bar {
     width: 90%;
-    left: 2.5%;
-    right: 2.5%;
+    left: 5%;
+    right: 5%;
     height: 9vh;
     position: fixed;
     margin-top: 1.5vh;
@@ -324,7 +324,7 @@
     justify-content: space-between;
     backdrop-filter: blur(10px);
     z-index: 10;
-    border: 1px solid var(--bk-color);
+    border: 1px solid rgb(126, 120, 120);
     z-index: 9998;
   }
   /* LOGO */
@@ -365,7 +365,7 @@
     border-right: 6px solid #5eff00;
     border-radius: 15px;
     font-size: 1vw;
-    height: 8vh;
+    height: 7vh;
     width: 18vw;
     display: flex;
     align-items: center;
