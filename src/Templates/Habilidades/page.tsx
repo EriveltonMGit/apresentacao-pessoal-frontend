@@ -21,6 +21,7 @@ import {
 } from "react-icons/si";
 import { GiMagicLamp } from "react-icons/gi";
 import { MdOutlineStyle } from "react-icons/md";
+import React from "react";
 
 function Habilidades() {
   const items = [
@@ -44,11 +45,12 @@ function Habilidades() {
 
   return (
     <>
-      <section className=" w-screen h-screen" id="habilidades" data-aos="fade-up"
-     data-aos-duration="1000">
-        <h1>Ferramentas e Tecnologias:</h1>
+      <section className=" w-screen h-screen" id="habilidades" >
+        <h1 data-aos="fade-up"
+     data-aos-duration="1000">Ferramentas e Tecnologias:</h1>
         {/* card 1 */}
-        <main className=" w-[55vw] h-[85%] flex flex-wrap justify-center items-center ">
+        <main className=" w-[55vw] h-[85%] flex flex-wrap justify-center items-center " data-aos="fade-up"
+     data-aos-duration="1000">
           {items.map((item) => (
             <div
               key={item.id}

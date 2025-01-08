@@ -1,4 +1,5 @@
 // IMPORT CSS
+import React from "react";
 import "./Projetos.css";
 
 function Projetos() {
@@ -65,13 +66,14 @@ function Projetos() {
   return (
     <>
 
-    <section className="flex container_projetos" id="projetos" data-aos="fade-up"
-     data-aos-duration="1000">
+    <section className="flex container_projetos" id="projetos" >
         <h1>Projetos:</h1>
     <main>
     {ittemsProjects.map((item) => (
-        <div key={item.id} className="body_project button-custom ">
-          <p className="name">{item.name}</p>
+        <div key={item.id} className="body_project button-custom " data-aos="fade-up"
+        data-aos-duration="1000">
+          <p className="name" data-aos="fade-up"
+     data-aos-duration="1000">{item.name}</p>
           <img className="img_project" src={item.image} alt={item.name} />
           <span className="descricao">{item.description}</span>
           {item.site && (

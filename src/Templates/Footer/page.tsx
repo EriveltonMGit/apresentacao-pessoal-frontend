@@ -3,12 +3,13 @@ import { BiMenuAltRight } from 'react-icons/bi';
 import { AiOutlineTeam } from 'react-icons/ai';
 
 import "./Footer.css";
+import React from 'react';
 
 export default function Footer() {
   return (
-    <section className="section_5" id='contato' data-aos="fade-up"
-    data-aos-duration="1000">
-      <footer id="contato" className="footer">
+    <section className="section_5" id='contato' >
+      <footer id="contato" className="footer" data-aos="fade-up"
+     data-aos-duration="1000">
         <div className="container">
           {/* Sobre */}
           <div className="footerColumn" >

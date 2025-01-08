@@ -11,11 +11,12 @@ function Sobre() {
         {/* card 1 */}
         <main
           className="w-[50vw]  card_sobre flex-col-reverse"
-          data-aos="fade-up"
-          data-aos-duration="1000"
+         
         >
-          <h1>Sobre:</h1>
-          <p>
+          <h1  data-aos="fade-up"
+          data-aos-duration="1000">Sobre:</h1>
+          <p  data-aos="fade-up"
+          data-aos-duration="1000">
             Formado em Análise e Desenvolvimento de Sistemas, sou desenvolvedor
             Front-end com certificação em Desenvolvedor Full Stack e Google
             Cloud Computing. Atualmente, estou expandindo meus conhecimentos
@@ -23,7 +24,8 @@ function Sobre() {
             me capacita a criar soluções eficientes, inovadoras e visualmente
             atraentes, com foco em performance e usabilidade.
           </p>
-          <p>
+          <p  data-aos="fade-up"
+          data-aos-duration="1000">
             Tenho experiência prática com ferramentas como Angular e React, e
             estou sempre explorando novas tecnologias e tendências para otimizar
             meus projetos, proporcionando uma experiência de usuário envolvente
